@@ -198,4 +198,5 @@ void SetCursorVisible(int visible)
 {
     CONSOLE_CURSOR_INFO ci = { 100, visible };
     SetConsoleCursorInfo(GetStdHandle(STD_OUTPUT_HANDLE), &ci);
+	printf("asdlasdlknasdkln");
 }
